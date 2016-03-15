@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Damage Page</title>
+  <link rel="stylesheet" type="text/css" href="damstyle.css">
+  
+
+</head>
+
+<body onload="drawCarRightSide()">
+
+   <canvas id="canvasRightSide" width="650" height="317"></canvas>
+
+
+    <div id="NavPaneArea" >
+    <span id="NavButton1">
+      <button id="Side-Right" class="nav-btn1" type="button">Side Right</button><br>
+    </span>
+    <span id="NavButton2">
+      <button id="Front" class="nav-btn2" type="button">Front</button><br>
+    </span>
+    <span id="NavButton3">
+      <button id="Side-Left" class="nav-btn3" type="button">Side Left</button><br>
+    </span>
+    <span id="NavButton4">
+      <button id="Back" class="nav-btn4" type="button">Back</button><br>
+    </span>
+    <span id="NavButton5">
+      <button id="Top" class="nav-btn5" type="button">Top</button><br>
+    </span>
+  </div>
+
+
+  <div id="ButtonArea" >
+    <span id="Button1">
+      <button id="Dent" class="btn1" type="button">Dent</button><br>
+    </span>
+    <span id="Button2">
+      <button id="Paint" class="btn2" type="button">Paint</button><br>
+    </span>
+    <span id="Button3">
+      <button id="Scratch" class="btn3" type="button">Scratch</button><br>
+    </span>
+    <span id="Button4">
+      <button id="Erase" class="btn4" type="button">Erase</button><br>
+    </span>
+  </div>
+</body>
+
+
+  <script src="jquery-1.12.1.js"></script>
+  <script src="draw.js">  </script>
+  <script src="buttonstyle.js"></script>
+
+  <script src="damscript.js"></script>
+
+</html>

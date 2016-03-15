@@ -1,0 +1,65 @@
+#canvasRightSide{
+	margin-left:350px;
+  margin-top: 150px;
+}
+
+#ButtonArea{
+	margin-left:1200px;
+	margin-top: -190px;
+}
+
+#NavPaneArea{
+	margin-left:20px;
+	margin-top: -240px;
+}
+
+
+
+
+.btn1,.btn2,.btn3,.btn4
+{
+
+	background-color: rgb(176,76,81);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	margin-top: 16px;
+	width:70px;
+	height:30px;
+}
+
+
+
+#Dent:hover,#Paint:hover, #Scratch:hover, #Erase:hover{
+	background-color: #ffffff;
+	
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+color:rgb(176,76,81);
+		width:73px;
+	height:32px;
+	
+
+
+}
+
+.nav-btn1, .nav-btn2, .nav-btn3 , .nav-btn4, .nav-btn5{
+   color:white;
+	background-color: #52527a;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	margin-top: 3px;
+	width:120px;
+	height:35px;
+}
+
+#Side-Right:hover, #Side-Left:hover, #Front:hover, #Back:hover, #Top:hover{
+border-bottom-style: solid;
+    border-bottom-color: #00e6ac;
+    border-bottom-width: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
